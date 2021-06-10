@@ -16,7 +16,7 @@ from sklearn.model_selection import train_test_split
 from datasets import  ReviewsDataset
 from model import LSTM_fixes_len
 from model import LSTM_glove_vecs
-feom model import LSTM_regr
+from model import LSTM_regr
 
 review=pd.read_csv('/Users/huangbowei/Desktop/coding/Python/Text Classification using LSTM in Pytorch/data/reviews.csv')
 
